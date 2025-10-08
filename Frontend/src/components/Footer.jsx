@@ -5,7 +5,7 @@ export default function Footer() {
                 <img src="./assets/logo.png" alt="" className="w-36 mx-auto mb-2 dark:hidden" />
                 <img src="./assets/logo_dark.png" alt="" className="w-36 mx-auto mb-2 hidden dark:block" />
                 
-                <div className="flex">
+                <div className="flex flex-col lg:flex-row">
 
 
                 <div className="w-max flex items-center gap-2 mx-auto">
