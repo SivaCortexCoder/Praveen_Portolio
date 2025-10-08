@@ -29,8 +29,9 @@ export default function Footer() {
                 <p>© {new Date().getFullYear()} <span>Praveen</span>. All rights reserved.</p>
                 <p>Chennai, Tamilnadu.</p>
                 <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-                    <li><a target='_blank' href="">LinkedIn</a></li>
-                    <li><a target='_blank' href="">Instagram</a></li>
+                    <li><a target="_blank" href="https://wa.me/918668086652">WhatsApp</a></li>
+                    <li><a target='_blank' href="https://www.linkedin.com/in/praveen-p-949981175/">LinkedIn</a></li>
+                    <li><a target='_blank' href="https://www.instagram.com/praveenviji_?igsh=ZmJudXVvNng3Y3l0">Instagram</a></li>
                 </ul>
             </div>
         </div>
