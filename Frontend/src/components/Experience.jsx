@@ -15,7 +15,7 @@ export default function Experience() {
                 'Canadian 2 for 1 Pizza',
                 'Tibet Momos',
                 'Licksters (Fruit Popsicles)',
-                'Uncle Peter'
+                `Uncle Peter's Pancakes`
             ],
             responsibilities: 'End-to-end strategy, ad campaigns, content creation, performance marketing, social media growth.',
             current: true
@@ -65,12 +65,13 @@ export default function Experience() {
                     <div 
                         key={index} 
                         className="relative border border-gray-300 dark:border-white/30 rounded-xl p-8 mb-8 cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/60 dark:hover:bg-darkHover/50"
-                    >
-                        <div className="flex items-start gap-6">
-                            <div className="flex-shrink-0">
+                    > 
+                    {/* <div className="flex-shrink-0">
                                 <img src={exp.icon1} alt="" className="w-10 mt-1 dark:hidden" />
                                 <img src={exp.icon2} alt="" className="w-10 mt-1 hidden dark:block" />
-                            </div>
+                     </div> */}
+                        <div className="flex items-start gap-6">
+                           
                             
                             <div className="flex-1">
                                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3">
